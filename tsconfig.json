@@ -14,7 +14,57 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "my-progress": [
+        "dist/my-progress/my-progress",
+        "dist/my-progress"
+      ],
+      "my-pie": [
+        "dist/my-pie/my-pie",
+        "dist/my-pie"
+      ],
+      "my-grid": [
+        "dist/my-grid/my-grid",
+        "dist/my-grid"
+      ],
+      "my-bar": [
+        "dist/my-bar/my-bar",
+        "dist/my-bar"
+      ],
+      "my-display": [
+        "dist/my-display/my-display",
+        "dist/my-display"
+      ],
+      "my-navbar": [
+        "dist/my-navbar/my-navbar",
+        "dist/my-navbar"
+      ],
+      "my-toolbar": [
+        "dist/my-toolbar/my-toolbar",
+        "dist/my-toolbar"
+      ],
+      "table": [
+        "dist/table/table",
+        "dist/table"
+      ],
+      "my-linechart": [
+        "dist/my-linechart/my-linechart",
+        "dist/my-linechart"
+      ],
+      "my-areachart": [
+        "dist/my-areachart/my-areachart",
+        "dist/my-areachart"
+      ],
+      "my-weather": [
+        "dist/my-weather/my-weather",
+        "dist/my-weather"
+      ],
+      "my-dropdown": [
+        "dist/my-dropdown/my-dropdown",
+        "dist/my-dropdown"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

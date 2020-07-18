@@ -1,0 +1,50 @@
+<br><br>
+ <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align: center;color: rgb(14, 14, 17);font-weight: lighter;">Display Component</h2><br>
+ <div class="whole" fxLayout="row" fxLayoutGap="20px">
+     <div class="lib" fxFlex="650px">
+        <lib-my-display [displaydata]=mydisplaycontent></lib-my-display>
+     </div>
+
+    <div class="matter" >
+          <p>Display Component takes any number of labels,it's values,it's colors and suitable icons for 
+              displaying and indicating progress.
+              On importing and specifying input, the Component displays as shown.
+          </p>
+    </div>
+</div>
+
+<div class="mattabs" style="margin: 0 auto;">
+  <mat-tab-group >
+    <mat-tab label="HTML">
+      <div style="background-color:rgb(27, 26, 26);">
+        <code>
+          <pre style="margin: 20px;font-size:15px;color: white;">
+            {{htmlcode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+   
+    <mat-tab label="TS" >
+      <div style="background-color:rgb(27, 26, 26);">
+        <code>
+          <pre style="margin: 20px;font-size:15px;color: white;">
+            {{tscode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+  
+    <mat-tab label="SCSS" >
+      <div style="background-color: rgb(27, 26, 26);">
+        <code>
+          <pre style="margin:20px;font-size:15px;color: white;">
+            {{scsscode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+  
+  
+  </mat-tab-group>
+  </div>

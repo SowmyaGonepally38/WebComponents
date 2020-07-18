@@ -1,0 +1,18 @@
+ <table class="table table-striped" >
+    <thead style="background-color: rgb(15, 15, 66);color: white;font-family:'Trebuchet MS';">
+        <tr>
+            <th scope="col" *ngFor="let td of tabledata" style="text-align: center;">{{td.name}}</th>
+        </tr>
+    </thead>
+    <tbody>
+              <ng-container *ngFor="let k of count">
+                <tr>
+                        <ng-container *ngFor="let data of tabledata">
+                        <td style="font-family: 'Trebuchet MS';">{{data.value[k]}}</td>
+                         </ng-container>   
+                </tr>
+              </ng-container>
+        
+    </tbody>
+</table>
+

@@ -1,0 +1,50 @@
+<br><br>
+ <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align: center;color: rgb(14, 14, 17);font-weight: lighter;">Pie/Donut Component</h2><br>
+ <div class="whole" fxLayout="row" fxLayoutGap="20px">
+     <div class="lib" fxFlex="600px">
+        <lib-my-pie [pieContent]=mypiecontent></lib-my-pie>
+     </div>
+
+    <div class="matter" >
+          <p>Pie/donut component takes values and colors for each label.
+              It also takes width and type as input.If the type is donut, the component
+              displays a donut chart. If the input is pie,the component displays a pie chart.
+          </p>
+    </div>
+</div>
+
+<div class="mattabs" style="margin: 0 auto;">
+  <mat-tab-group >
+    <mat-tab label="HTML">
+      <div style="background-color:rgb(27, 26, 26);">
+        <code>
+          <pre style="margin: 20px;font-size:15px;color: white;">
+            {{htmlcode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+   
+    <mat-tab label="TS" >
+      <div style="background-color:rgb(27, 26, 26);">
+        <code>
+          <pre style="margin: 20px;font-size:15px;color: white;">
+            {{tscode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+  
+    <mat-tab label="SCSS" >
+      <div style="background-color: rgb(27, 26, 26);">
+        <code>
+          <pre style="margin:20px;font-size:15px;color: white;">
+            {{scsscode}}
+          </pre>
+        </code>
+      </div>
+    </mat-tab>
+  
+  
+  </mat-tab-group>
+  </div>

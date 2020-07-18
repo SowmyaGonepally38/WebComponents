@@ -1,0 +1,17 @@
+<div class="my-grid" style="height: 100px;">
+<mat-card style="width: fit-content;height: fit-content;background-color:white;" > 
+  <mat-card-header></mat-card-header>
+  <mat-card-content>
+<mat-grid-list cols="2" rowHeight="2:1" gutterSize="5px">
+    <mat-grid-tile  *ngFor="let c of gridContent" [style.background]="c.color" class="list">
+      <div class="data">
+        <p> <span style="font-size:large;font-family:'Trebuchet MS';">{{c.label}}</span>
+          <br>
+          <span style="font-size:xx-large;">{{c.value}}</span>
+        </p>
+      </div>
+    </mat-grid-tile> 
+</mat-grid-list>
+</mat-card-content>
+</mat-card> 
+</div>

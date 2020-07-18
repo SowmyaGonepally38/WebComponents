@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<mat-card class="inner">
+    <mat-card-header>
+      <mat-card-title style="font-size: 30px;text-align: center;font-family:'Trebuchet MS';">This Month</mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <br>
+    <mat-card-content *ngFor="let prog of p">
+     
+       <h2 style="text-align: left;float: left;font-family:'Trebuchet MS';font-size: large;font-weight: lighter;">{{prog.label}}</h2>
+       <h2 style="text-align: right;float: right;font-size: large;font-weight: lighter;">{{prog.percent}}%</h2>
+       <mat-progress-bar class="bar" mode="determinate" value={{prog.percent}} color={{prog.color}}></mat-progress-bar>  <br>   </mat-card-content>
+      
+  </mat-card>
+
+
+</body>
+</html>

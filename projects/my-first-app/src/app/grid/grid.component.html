@@ -1,0 +1,54 @@
+<br><br>
+ <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align: center;color: rgb(14, 14, 17);font-weight: lighter;">Grid Component</h2><br>
+ <div class="whole" fxLayout="row" fxLayoutGap="20px">
+     <div class="lib" fxFlex="500px">
+          <lib-my-grid [gridContent]=mygridcontent></lib-my-grid> 
+     </div>
+
+    <div class="matter" fxFlex="700px" >
+          <p>Grid Component takes any number of labels and it's 
+            values as input and displays them in the form of n rows 
+            with 2 columns. On importing this library, user can
+            specify label with it's value and colour.
+           The library displays the content as per specified input.</p>
+    </div>
+</div>
+
+<br><br><br><br><br><br>
+
+<div class="mattabs" style="margin: 0 auto;">
+<mat-tab-group >
+  <mat-tab label="HTML">
+    <div style="background-color:rgb(27, 26, 26);">
+      <code>
+        <pre style="margin: 20px;font-size:15px;color: white;">
+          {{htmlcode}}
+        </pre>
+      </code>
+    </div>
+  </mat-tab>
+ 
+  <mat-tab label="TS" >
+    <div style="background-color:rgb(27, 26, 26);">
+      <code>
+        <pre style="margin: 20px;font-size:15px;color: white;">
+          {{tscode}}
+        </pre>
+      </code>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="SCSS" >
+    <div style="background-color: rgb(27, 26, 26);">
+      <code>
+        <pre style="margin:20px;font-size:15px;color: white;">
+          {{scsscode}}
+        </pre>
+      </code>
+    </div>
+  </mat-tab>
+
+
+</mat-tab-group>
+</div>
+
