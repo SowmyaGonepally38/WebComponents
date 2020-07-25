@@ -1,6 +1,6 @@
 {
-  "name": "my-areachart",
-  "version": "0.0.1",
+  "name": "area-chart-38-38",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"

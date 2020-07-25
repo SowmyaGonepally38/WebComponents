@@ -1,5 +1,5 @@
 {
-  "name": "my-display",
+  "name": "my-display-3838",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
@@ -8,4 +8,5 @@
   "dependencies": {
     "tslib": "^1.10.0"
   }
+  
 }

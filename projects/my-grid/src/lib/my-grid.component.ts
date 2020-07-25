@@ -8,6 +8,9 @@ import { Grid } from './Grid';
   styleUrls: ['./my-grid.component.scss']
 })
 export class MyGridComponent implements OnInit {
+  setInput(myinput: import("../../../../dist/my-grid/public-api").Grid[]) {
+    throw new Error("Method not implemented.");
+  }
 
   @Input()
   public gridContent:Grid[];

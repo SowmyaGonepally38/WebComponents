@@ -10,7 +10,7 @@ describe('MyPieService', () => {
     service = TestBed.inject(MyPieService);
   });
 
-  it('should be created', () => {
+  it('service is created', () => {
     expect(service).toBeTruthy();
   });
 });

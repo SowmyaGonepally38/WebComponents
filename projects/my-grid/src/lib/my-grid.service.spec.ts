@@ -10,7 +10,7 @@ describe('MyGridService', () => {
     service = TestBed.inject(MyGridService);
   });
 
-  it('should be created', () => {
+  it('service is created', () => {
     expect(service).toBeTruthy();
   });
 });

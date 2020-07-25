@@ -1,11 +1,12 @@
-
 <div id="chart" >
+  <ng-container *ngIf="chartOptions">
     <apx-chart
       [series]="chartOptions.series"
       [chart]="chartOptions.chart"
       [labels]="chartOptions.labels"
       [colors]="chartOptions.colors"
     ></apx-chart>
+  </ng-container>
   </div>
 
 

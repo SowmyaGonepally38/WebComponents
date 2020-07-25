@@ -1,4 +1,5 @@
 <div id="chart">
+  <ng-container *ngIf="chartOptions">
     <apx-chart
       [series]="chartOptions.series"
       [chart]="chartOptions.chart"
@@ -7,5 +8,6 @@
       [colors]="chartOptions.colors"
       [dataLabels]="chartOptions.dataLabels"
     ></apx-chart>
+  </ng-container>
   </div>
   

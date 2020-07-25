@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MyProgressComponent } from './my-progress.component';
+import { Progress } from 'my-progress';
 
 describe('MyProgressComponent', () => {
   let component: MyProgressComponent;
@@ -19,7 +20,24 @@ describe('MyProgressComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('component created', () => {
     expect(component).toBeTruthy();
   });
+  it('Taking input properly',()=>{
+    const myinput:Progress[]=[
+      {
+        label:'Sales',
+        percent:52,
+        color:"primary"
+    },
+    
+    {
+        label:'Projects',
+        percent:80,
+        color:"accent"
+    }
+    ]
+    component.p=myinput;
+    expect(component.p).toEqual(myinput);
+  })
 });
