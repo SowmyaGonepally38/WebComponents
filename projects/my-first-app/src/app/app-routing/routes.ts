@@ -26,6 +26,7 @@ export const routes:Routes=[
 { path:'weather',component:WeatherComponent},
 {path:'display',component:DisplayComponent},
 {path:'area',component:AreaComponent},
-{path:'progress',component:ProgressComponent}
+{path:'progress',component:ProgressComponent},
+{path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ]
